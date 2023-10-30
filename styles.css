@@ -1,0 +1,130 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #1c1c7f;
+  padding: 20px 10px;
+  font-family: 'Teko', sans-serif;
+  width:100%;
+
+}
+
+.header a {
+  float: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: 'Teko', sans-serif;
+}
+
+.header a.logo {
+  font-size: xx-large;
+  color:#fff
+}
+
+.header a:hover {
+  background-color: #434397;
+  color: rgb(255, 255, 255);
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+
+.straight-line {
+    border: none; /* Remove the default border */
+    border-top: 1px solid #000; /* Set the border to be a 1-pixel solid line */
+    margin: 10px 0; /* Adjust margin to control the space above and below the line */
+    width: 100%; /* Set the width to 100% to make it span the container */
+    height: 2px;
+
+  }
+
+
+
+  h1 {
+    margin: 0; 
+}
+
+h1 a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Set link text color */
+}   
+
+nav ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 10px; /* Add some space between list items */
+}
+nav a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Set link text color */
+    
+}
+
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    position:sticky;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    width: 33.33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+  
+  /* Add a background color on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+  }
+
+
+.beholder {
+    position:-ms-page;
+}
+.mascotbilde {
+    height: 250px;
+    width: 100%;
+}
