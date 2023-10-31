@@ -164,7 +164,8 @@ nav a {
   }
 
   /* Style the footer container */
-  .footer {
+
+.footer {
     display: flex;
     flex-direction:column;
     justify-content: space-between;
