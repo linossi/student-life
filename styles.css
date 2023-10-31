@@ -133,3 +133,9 @@ nav a {
     height: 250px;
     width: 100%;
 }
+.titles-faculty {
+    font-size: xx-large;
+    font-family: 'Teko', sans-serif;
+    margin-bottom: 10px;
+    text-align:left;
+} 
