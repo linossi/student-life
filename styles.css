@@ -162,3 +162,72 @@ nav a {
     background-color: #1c1c7f;
     color: white;
   }
+
+  /* Style the footer container */
+  .footer {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    background-color:#1c1c7f;
+    color: #fff;
+    padding: 10px;
+}
+
+.sources {
+    font-size: xx-large;
+    font-family: 'Teko', sans-serif;
+    margin-bottom: 10px;
+    text-align:left;
+    color: #fff;
+    display:flex-start;
+}
+/* Style the list of links */
+.links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links li {
+    margin: 5px 0;
+}
+
+.links li a {
+    color: #ffffff; /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.links li a:hover {
+    text-decoration: underline; /* Add underlines on hover */
+    color: #ff6600; /* Change the link color on hover */
+}
+
+/* Style the button */
+.button {
+    background-color: #ffffff; /* Button background color */
+    color: #1c1c7f; /* Button text color */
+    padding: 20px 30px; /* Adjust as needed */
+    border: none;
+    cursor: pointer;
+    margin-right:65px;
+    margin-left:150px;
+    border-radius: 12px;
+    font-size:large;
+    font-family: 'Teko', sans-serif;
+}
+
+/* Adjust the spacing between the button and the links */
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.white-line{
+    border: none; 
+    border-top: 1px solid #ffffff; 
+    margin: 0 10px; 
+    width: 100%;
+    height: 4px;
+  }
