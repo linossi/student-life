@@ -36,7 +36,7 @@ body {
 }
 
 .header a.active {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255); /* forandrer fargen på bakgrunnen til teksten som beskriver nettsidens innhold*/
     color: rgb(0, 0, 0);
   }
 
@@ -57,10 +57,10 @@ body {
 }
 
 .straight-line {
-    border: none; /* Remove the default border */
-    border-top: 1px solid #000; /* Set the border to be a 1-pixel solid line */
-    margin: 10px 0; /* Adjust margin to control the space above and below the line */
-    width: 100%; /* Set the width to 100% to make it span the container */
+    border: none; /*Fjerner "default border" */
+    border-top: 1px solid #000; 
+    margin: 10px 0; /* Mellomrom mellom toppen og bunnen av linja */
+    width: 100%; /* få den til å strekke seg over hele nettsida */
     height: 2px;
 
   }
@@ -72,26 +72,25 @@ body {
 }
 
 h1 a {
-    text-decoration: none; /* Remove underlines from links */
-    color: #fff; /* Set link text color */
+    text-decoration: none; /* fjerner linjene under linkene*/
+    color: #fff; /* link farge */
 }   
 
 nav ul {
-    list-style-type: none; /* Remove default list styling */
+    list-style-type: none; /* fjerner "default list-styling" */
     margin: 0;
     padding: 0;
 }
 nav ul li {
-    display: inline; /* Display list items horizontally */
-    margin-right: 10px; /* Add some space between list items */
+    display: inline; /* list items blir plassert horisontalt */
+    margin-right: 10px; /* mellomrom mellom list items */
 }
 nav a {
-    text-decoration: none; /* Remove underlines from links */
-    color: #fff; /* Set link text color */
+    text-decoration: none; 
+    color: #fff; 
     
 }
 
-/* Style the navigation menu */
 .navbar {
     width: 100%;
     background-color: #555;
@@ -99,29 +98,28 @@ nav a {
     position:sticky;
   }
   
-  /* Navigation links */
+  /* "Navigation" linkene */
   .navbar a {
     float: left;
     padding: 12px;
     color: white;
     text-decoration: none;
     font-size: large;
-    width: 33.33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-    text-align: center; /* If you want the text to be centered */
+    width: 33.33%; /* For 4 linker, bruker du 25%,for 2, 50%, for 3, 33.33%... osv... */
+    text-align: center; 
   }
   
-  /* Add a background color on mouse-over */
   .navbar a:hover {
     background-color: #000;
   }
   
-  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+  /* for skjermer med 500px eller mindre, linker blir plassert vertikalt istedet for horisontalt */
   @media screen and (max-width: 500px) {
     .navbar a {
       float: none;
       display: block;
       width: 100%;
-      text-align: left; /* If you want the text to be left-aligned on small screens */
+      text-align: left; /*plasserer linkene på venstre side av den småe skjermen */
     }
   }
 
@@ -163,7 +161,6 @@ nav a {
     color: white;
   }
 
-  /* Style the footer container */
 
 .footer {
     display: flex;
@@ -182,7 +179,7 @@ nav a {
     color: #fff;
     display:flex-start;
 }
-/* Style the list of links */
+
 .links {
     list-style: none;
     padding: 0;
@@ -194,22 +191,22 @@ nav a {
 }
 
 .links li a {
-    color: #ffffff; /* Link color */
+    color: #ffffff; /* Link farge */
     text-decoration: none;
     font-weight: bold;
     margin-left: 20px;
 }
 
 .links li a:hover {
-    text-decoration: underline; /* Add underlines on hover */
-    color: #ff6600; /* Change the link color on hover */
+    text-decoration: underline; /* legger til linje under linken når musa er over linken */
+    color: #ff6600; /* Forandrer link farge når musa er over linken */
 }
 
-/* Style the button */
+/* knapp for kode */
 .button {
-    background-color: #ffffff; /* Button background color */
-    color: #1c1c7f; /* Button text color */
-    padding: 20px 30px; /* Adjust as needed */
+    background-color: #ffffff; /* knapp bakgrunnsfarge */
+    color: #1c1c7f; /* tekst farge */
+    padding: 20px 30px; /* størrelse */
     border: none;
     cursor: pointer;
     margin-right:65px;
@@ -219,7 +216,7 @@ nav a {
     font-family: 'Teko', sans-serif;
 }
 
-/* Adjust the spacing between the button and the links */
+/* mellomrom mellom knappen og linkene */
 .footer-content {
     display: flex;
     align-items: center;
