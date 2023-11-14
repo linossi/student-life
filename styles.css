@@ -256,3 +256,7 @@ nav a {
   width: 100%;
   height: auto;
 }
+
+.caption {
+  margin-top: 5px; /* Adjust the margin between the image and text */
+}
