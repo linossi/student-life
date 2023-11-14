@@ -253,3 +253,7 @@ nav a {
 .caption {
   margin-top: 5px; /* Adjust the margin between the image and text */
 }
+
+.list-start {
+  border-bottom:#1c1c7f 2px;
+}
