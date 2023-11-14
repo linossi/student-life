@@ -262,4 +262,5 @@ nav a {
   flex: 33.33%;
   padding: 5px;
   size:100%;
+  box-sizing: border-box;
 }
