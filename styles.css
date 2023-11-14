@@ -128,22 +128,22 @@ nav a {
     margin-left: 20px;
 } 
 
-#clubs { /* # for id, istedetfor class . */
+#customers { /* # for id, istedetfor class . */
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100% !important;
   }
   
-  #clubs td, #clubs th {
+  #customers td, #customers th {
     border: 1px solid #ddd;
     padding: 8px;
   }
   
-  #clubs tr:nth-child(even){background-color: #f2f2f2;}
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
   
-  #clubs tr:hover {background-color: #ddd;}
+  #customers tr:hover {background-color: #ddd;}
   
-  #clubs th {
+  #customers th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
