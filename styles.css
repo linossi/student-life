@@ -261,6 +261,6 @@ nav a {
 .column {
   flex: 33.33%;
   padding: 5px;
-  size:100%;
+  size:300px;
   box-sizing: border-box;
 }
