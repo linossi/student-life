@@ -250,11 +250,13 @@ nav a {
 .column {
   flex: 33.33%;
   padding: 5px;
+  text-align: center;
 }
 
 .row img {
   width: 100%;
   height: auto;
+  display: block;
 }
 
 .caption {
