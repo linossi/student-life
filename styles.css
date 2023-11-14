@@ -25,7 +25,7 @@ body {
   font-family: 'Teko', sans-serif;
 }
 
-.header a.logo {
+.header a.logo { /* her forandrer man farge, tekst størrelse og andre tekst relaterte ting til "overskriften" på "header". */
   font-size: xx-large;
   color:#fff
 }
@@ -44,17 +44,6 @@ body {
   float: right;
 }
 
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .header-right {
-    float: none;
-  }
-}
 
 .straight-line {
     border: none; /*Fjerner "default border" */
