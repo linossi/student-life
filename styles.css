@@ -252,3 +252,13 @@ nav a {
   line-height:1.5;
   margin-bottom:5px;
 }
+
+.row {
+  display: flex;
+}
+
+/*3 bilder som er like store ved siden av hverandre*/
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
