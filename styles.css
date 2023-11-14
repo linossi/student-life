@@ -102,16 +102,6 @@ nav a {
     background-color: #000;
   }
   
-  /* for skjermer med 500px eller mindre, linker blir plassert vertikalt istedet for horisontalt */
-  @media screen and (max-width: 500px) {
-    .navbar a {
-      float: none;
-      display: block;
-      width: 100%;
-      text-align: left; /*plasserer linkene på venstre side av den småe skjermen */
-    }
-  }
-
 
 .beholder {
     position:-ms-page;
