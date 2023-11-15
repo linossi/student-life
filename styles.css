@@ -196,6 +196,7 @@ nav a {
     border-radius: 12px;
     font-size:large;
     font-family: 'Teko', sans-serif;
+    text-decoration: none;
 }
 
 /* mellomrom mellom knappen og linkene */
