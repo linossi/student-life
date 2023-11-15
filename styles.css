@@ -196,8 +196,13 @@ nav a {
     border-radius: 12px;
     font-size:large;
     font-family: 'Teko', sans-serif;
-    text-decoration: none;
 }
+
+.button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 
 /* mellomrom mellom knappen og linkene */
 .footer-content {
